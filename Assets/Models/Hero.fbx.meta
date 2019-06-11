@@ -1,0 +1,648 @@
+fileFormatVersion: 2
+guid: c11c3320f465b7847891e32a5a64a552
+timeCreated: 1547878101
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone.004
+    100002: Bone.004_end
+    100004: Chest
+    100006: Foot.L
+    100008: Foot.L_end
+    100010: Foot.R
+    100012: Foot.R_end
+    100014: Hand.L
+    100016: Hand.L_end
+    100018: Hand.R
+    100020: Hand.R_end
+    100022: //RootNode
+    100024: Hips
+    100026: Leg IK.L
+    100028: Leg IK.L_end
+    100030: Leg Ik.R
+    100032: Leg Ik.R_end
+    100034: Lower Arm.L
+    100036: Lower Arm.L_end
+    100038: Lower Arm.R
+    100040: Lower Arm.R_end
+    100042: Lower Leg.L
+    100044: Lower Leg.R
+    100046: Neck
+    100048: Player
+    100050: Pole Bone.L
+    100052: Pole Bone.L_end
+    100054: Pole Bone.R
+    100056: Pole Bone.R_end
+    100058: RIg
+    100060: Shoulder.L
+    100062: Shoulder.R
+    100064: Spine
+    100066: Upper Arm.L
+    100068: Upper Arm.R
+    100070: Upper Leg.L
+    100072: Upper Leg.R
+    100074: Rig
+    400000: Bone.004
+    400002: Bone.004_end
+    400004: Chest
+    400006: Foot.L
+    400008: Foot.L_end
+    400010: Foot.R
+    400012: Foot.R_end
+    400014: Hand.L
+    400016: Hand.L_end
+    400018: Hand.R
+    400020: Hand.R_end
+    400022: //RootNode
+    400024: Hips
+    400026: Leg IK.L
+    400028: Leg IK.L_end
+    400030: Leg Ik.R
+    400032: Leg Ik.R_end
+    400034: Lower Arm.L
+    400036: Lower Arm.L_end
+    400038: Lower Arm.R
+    400040: Lower Arm.R_end
+    400042: Lower Leg.L
+    400044: Lower Leg.R
+    400046: Neck
+    400048: Player
+    400050: Pole Bone.L
+    400052: Pole Bone.L_end
+    400054: Pole Bone.R
+    400056: Pole Bone.R_end
+    400058: RIg
+    400060: Shoulder.L
+    400062: Shoulder.R
+    400064: Spine
+    400066: Upper Arm.L
+    400068: Upper Arm.R
+    400070: Upper Leg.L
+    400072: Upper Leg.R
+    400074: Rig
+    4300000: Player
+    7400000: RIg|RIg|RIg|Run(FORWARD ARM)|RIg|Run(FORWARD ARM)
+    7400002: RIg|Run
+    7400004: Rig|RIg|RIg|Run(FORWARD ARM)|RIg|Run(FORWARD ARM)
+    7400006: Rig|Run
+    7400008: Rig|Idle
+    7400010: Rig|Dig
+    7400012: Rig|Kick
+    7400014: Rig|Dig(SHOVEL
+    9500000: //RootNode
+    13700000: Player
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Rig|Idle
+      takeName: Rig|Idle
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Player
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/Hips
+        weight: 1
+      - path: Rig/Hips/Spine
+        weight: 1
+      - path: Rig/Hips/Spine/Chest
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Neck/Bone.004
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Neck/Bone.004/Bone.004_end
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.L
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.L/Upper Arm.L
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.L/Upper Arm.L/Lower Arm.L
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.L/Upper Arm.L/Lower Arm.L/Lower Arm.L_end
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.R
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.R/Upper Arm.R
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.R/Upper Arm.R/Lower Arm.R
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.R/Upper Arm.R/Lower Arm.R/Lower Arm.R_end
+        weight: 1
+      - path: Rig/Hips/Upper Leg.L
+        weight: 1
+      - path: Rig/Hips/Upper Leg.L/Lower Leg.L
+        weight: 1
+      - path: Rig/Hips/Upper Leg.L/Lower Leg.L/Foot.L
+        weight: 1
+      - path: Rig/Hips/Upper Leg.L/Lower Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Rig/Hips/Upper Leg.R
+        weight: 1
+      - path: Rig/Hips/Upper Leg.R/Lower Leg.R
+        weight: 1
+      - path: Rig/Hips/Upper Leg.R/Lower Leg.R/Foot.R
+        weight: 1
+      - path: Rig/Hips/Upper Leg.R/Lower Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Rig/Leg IK.L
+        weight: 1
+      - path: Rig/Leg IK.L/Leg IK.L_end
+        weight: 1
+      - path: Rig/Leg Ik.R
+        weight: 1
+      - path: Rig/Leg Ik.R/Leg Ik.R_end
+        weight: 1
+      - path: Rig/Pole Bone.L
+        weight: 1
+      - path: Rig/Pole Bone.L/Pole Bone.L_end
+        weight: 1
+      - path: Rig/Pole Bone.R
+        weight: 1
+      - path: Rig/Pole Bone.R/Pole Bone.R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rig|Dig
+      takeName: Rig|Dig
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Player
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/Hips
+        weight: 1
+      - path: Rig/Hips/Spine
+        weight: 1
+      - path: Rig/Hips/Spine/Chest
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Neck/Bone.004
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Neck/Bone.004/Bone.004_end
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.L
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.L/Upper Arm.L
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.L/Upper Arm.L/Lower Arm.L
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.L/Upper Arm.L/Lower Arm.L/Lower Arm.L_end
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.R
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.R/Upper Arm.R
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.R/Upper Arm.R/Lower Arm.R
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.R/Upper Arm.R/Lower Arm.R/Lower Arm.R_end
+        weight: 1
+      - path: Rig/Hips/Upper Leg.L
+        weight: 1
+      - path: Rig/Hips/Upper Leg.L/Lower Leg.L
+        weight: 1
+      - path: Rig/Hips/Upper Leg.L/Lower Leg.L/Foot.L
+        weight: 1
+      - path: Rig/Hips/Upper Leg.L/Lower Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Rig/Hips/Upper Leg.R
+        weight: 1
+      - path: Rig/Hips/Upper Leg.R/Lower Leg.R
+        weight: 1
+      - path: Rig/Hips/Upper Leg.R/Lower Leg.R/Foot.R
+        weight: 1
+      - path: Rig/Hips/Upper Leg.R/Lower Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Rig/Leg IK.L
+        weight: 1
+      - path: Rig/Leg IK.L/Leg IK.L_end
+        weight: 1
+      - path: Rig/Leg Ik.R
+        weight: 1
+      - path: Rig/Leg Ik.R/Leg Ik.R_end
+        weight: 1
+      - path: Rig/Pole Bone.L
+        weight: 1
+      - path: Rig/Pole Bone.L/Pole Bone.L_end
+        weight: 1
+      - path: Rig/Pole Bone.R
+        weight: 1
+      - path: Rig/Pole Bone.R/Pole Bone.R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rig|Run
+      takeName: Rig|Run
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Player
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/Hips
+        weight: 1
+      - path: Rig/Hips/Spine
+        weight: 1
+      - path: Rig/Hips/Spine/Chest
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Neck/Bone.004
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Neck/Bone.004/Bone.004_end
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.L
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.L/Upper Arm.L
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.L/Upper Arm.L/Lower Arm.L
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.L/Upper Arm.L/Lower Arm.L/Lower Arm.L_end
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.R
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.R/Upper Arm.R
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.R/Upper Arm.R/Lower Arm.R
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.R/Upper Arm.R/Lower Arm.R/Lower Arm.R_end
+        weight: 1
+      - path: Rig/Hips/Upper Leg.L
+        weight: 1
+      - path: Rig/Hips/Upper Leg.L/Lower Leg.L
+        weight: 1
+      - path: Rig/Hips/Upper Leg.L/Lower Leg.L/Foot.L
+        weight: 1
+      - path: Rig/Hips/Upper Leg.L/Lower Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Rig/Hips/Upper Leg.R
+        weight: 1
+      - path: Rig/Hips/Upper Leg.R/Lower Leg.R
+        weight: 1
+      - path: Rig/Hips/Upper Leg.R/Lower Leg.R/Foot.R
+        weight: 1
+      - path: Rig/Hips/Upper Leg.R/Lower Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Rig/Leg IK.L
+        weight: 1
+      - path: Rig/Leg IK.L/Leg IK.L_end
+        weight: 1
+      - path: Rig/Leg Ik.R
+        weight: 1
+      - path: Rig/Leg Ik.R/Leg Ik.R_end
+        weight: 1
+      - path: Rig/Pole Bone.L
+        weight: 1
+      - path: Rig/Pole Bone.L/Pole Bone.L_end
+        weight: 1
+      - path: Rig/Pole Bone.R
+        weight: 1
+      - path: Rig/Pole Bone.R/Pole Bone.R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rig|Kick
+      takeName: Rig|Kick
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.31897277
+        functionName: setStage
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.6676802
+        functionName: setStage
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Player
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/Hips
+        weight: 1
+      - path: Rig/Hips/Spine
+        weight: 1
+      - path: Rig/Hips/Spine/Chest
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Neck/Bone.004
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Neck/Bone.004/Bone.004_end
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.L
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.L/Upper Arm.L
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.L/Upper Arm.L/Lower Arm.L
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.L/Upper Arm.L/Lower Arm.L/Lower Arm.L_end
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.R
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.R/Upper Arm.R
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.R/Upper Arm.R/Lower Arm.R
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.R/Upper Arm.R/Lower Arm.R/Lower Arm.R_end
+        weight: 1
+      - path: Rig/Hips/Upper Leg.L
+        weight: 1
+      - path: Rig/Hips/Upper Leg.L/Lower Leg.L
+        weight: 1
+      - path: Rig/Hips/Upper Leg.L/Lower Leg.L/Foot.L
+        weight: 1
+      - path: Rig/Hips/Upper Leg.L/Lower Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Rig/Hips/Upper Leg.R
+        weight: 1
+      - path: Rig/Hips/Upper Leg.R/Lower Leg.R
+        weight: 1
+      - path: Rig/Hips/Upper Leg.R/Lower Leg.R/Foot.R
+        weight: 1
+      - path: Rig/Hips/Upper Leg.R/Lower Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Rig/Leg IK.L
+        weight: 1
+      - path: Rig/Leg IK.L/Leg IK.L_end
+        weight: 1
+      - path: Rig/Leg Ik.R
+        weight: 1
+      - path: Rig/Leg Ik.R/Leg Ik.R_end
+        weight: 1
+      - path: Rig/Pole Bone.L
+        weight: 1
+      - path: Rig/Pole Bone.L/Pole Bone.L_end
+        weight: 1
+      - path: Rig/Pole Bone.R
+        weight: 1
+      - path: Rig/Pole Bone.R/Pole Bone.R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rig|Dig(SHOVEL
+      takeName: Rig|Dig(SHOVEL
+      firstFrame: 0
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Player
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/Hips
+        weight: 1
+      - path: Rig/Hips/Spine
+        weight: 1
+      - path: Rig/Hips/Spine/Chest
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Neck/Bone.004
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Neck/Bone.004/Bone.004_end
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.L
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.L/Upper Arm.L
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.L/Upper Arm.L/Lower Arm.L
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.L/Upper Arm.L/Lower Arm.L/Lower Arm.L_end
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.R
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.R/Upper Arm.R
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.R/Upper Arm.R/Lower Arm.R
+        weight: 1
+      - path: Rig/Hips/Spine/Chest/Shoulder.R/Upper Arm.R/Lower Arm.R/Lower Arm.R_end
+        weight: 1
+      - path: Rig/Hips/Upper Leg.L
+        weight: 1
+      - path: Rig/Hips/Upper Leg.L/Lower Leg.L
+        weight: 1
+      - path: Rig/Hips/Upper Leg.L/Lower Leg.L/Foot.L
+        weight: 1
+      - path: Rig/Hips/Upper Leg.L/Lower Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Rig/Hips/Upper Leg.R
+        weight: 1
+      - path: Rig/Hips/Upper Leg.R/Lower Leg.R
+        weight: 1
+      - path: Rig/Hips/Upper Leg.R/Lower Leg.R/Foot.R
+        weight: 1
+      - path: Rig/Hips/Upper Leg.R/Lower Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Rig/Leg IK.L
+        weight: 1
+      - path: Rig/Leg IK.L/Leg IK.L_end
+        weight: 1
+      - path: Rig/Leg Ik.R
+        weight: 1
+      - path: Rig/Leg Ik.R/Leg Ik.R_end
+        weight: 1
+      - path: Rig/Pole Bone.L
+        weight: 1
+      - path: Rig/Pole Bone.L/Pole Bone.L_end
+        weight: 1
+      - path: Rig/Pole Bone.R
+        weight: 1
+      - path: Rig/Pole Bone.R/Pole Bone.R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.6
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

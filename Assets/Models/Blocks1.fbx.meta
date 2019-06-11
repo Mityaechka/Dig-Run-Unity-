@@ -1,0 +1,141 @@
+fileFormatVersion: 2
+guid: fa74b0fd46bffd54b8cd15ef8605bfc6
+timeCreated: 1547997338
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Block0_1
+    100002: Block0_2
+    100004: Block1_1
+    100006: Block1_2
+    100008: //RootNode
+    100010: StellBLock
+    100012: Wal
+    100014: Block2_1
+    100016: Block2_2
+    100018: GunBody
+    100020: GunTrunk
+    100022: GunBody_1
+    100024: GunBody_2
+    100026: Sun
+    400000: Block0_1
+    400002: Block0_2
+    400004: Block1_1
+    400006: Block1_2
+    400008: //RootNode
+    400010: StellBLock
+    400012: Wal
+    400014: Block2_1
+    400016: Block2_2
+    400018: GunBody
+    400020: GunTrunk
+    400022: GunBody_1
+    400024: GunBody_2
+    400026: Sun
+    2300000: Block0_1
+    2300002: Block0_2
+    2300004: Block1_1
+    2300006: Block1_2
+    2300008: StellBLock
+    2300010: Wal
+    2300012: Block2_1
+    2300014: Block2_2
+    2300016: GunBody
+    2300018: GunTrunk
+    2300020: GunBody_1
+    2300022: GunBody_2
+    3300000: Block0_1
+    3300002: Block0_2
+    3300004: Block1_1
+    3300006: Block1_2
+    3300008: StellBLock
+    3300010: Wal
+    3300012: Block2_1
+    3300014: Block2_2
+    3300016: GunBody
+    3300018: GunTrunk
+    3300020: GunBody_1
+    3300022: GunBody_2
+    4300000: Block1_2
+    4300002: Block0_2
+    4300004: Block0_1
+    4300006: Block1_1
+    4300008: StellBLock
+    4300010: Wal
+    4300012: Block2_1
+    4300014: Block2_2
+    4300016: GunTrunk
+    4300018: GunBody
+    4300020: GunBody_2
+    4300022: GunBody_1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 50
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

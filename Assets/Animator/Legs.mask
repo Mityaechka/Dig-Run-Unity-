@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Legs
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Backpack
+    m_Weight: 0
+  - m_Path: Drill
+    m_Weight: 0
+  - m_Path: Knight boot
+    m_Weight: 0
+  - m_Path: Knight helmet
+    m_Weight: 0
+  - m_Path: Miner
+    m_Weight: 1
+  - m_Path: Miner boot
+    m_Weight: 0
+  - m_Path: Miner hat
+    m_Weight: 0
+  - m_Path: MinerBody
+    m_Weight: 0
+  - m_Path: MinerRig
+    m_Weight: 1
+  - m_Path: MinerRig/Body
+    m_Weight: 0
+  - m_Path: MinerRig/Body/Arm.L
+    m_Weight: 0
+  - m_Path: MinerRig/Body/Arm.L/Arm.L_end
+    m_Weight: 0
+  - m_Path: MinerRig/Body/Arm.R
+    m_Weight: 0
+  - m_Path: MinerRig/Body/Arm.R/Arm.R_end
+    m_Weight: 0
+  - m_Path: MinerRig/Body/Head
+    m_Weight: 0
+  - m_Path: MinerRig/Body/Head/Bear.0
+    m_Weight: 0
+  - m_Path: MinerRig/Body/Head/Bear.0/Bear.1
+    m_Weight: 0
+  - m_Path: MinerRig/Body/Head/Bear.0/Bear.1/Bear.2
+    m_Weight: 0
+  - m_Path: MinerRig/Body/Head/Bear.0/Bear.1/Bear.2/Bear.2_end
+    m_Weight: 0
+  - m_Path: MinerRig/Foot.L
+    m_Weight: 1
+  - m_Path: MinerRig/Foot.L/Foot.L_end
+    m_Weight: 1
+  - m_Path: MinerRig/Foot.R
+    m_Weight: 1
+  - m_Path: MinerRig/Foot.R/Foot.R_end
+    m_Weight: 1
+  - m_Path: Pickaxe
+    m_Weight: 0
+  - m_Path: Rocket boot
+    m_Weight: 0
+  - m_Path: Shovel
+    m_Weight: 0
+  - m_Path: Wolf hat
+    m_Weight: 0
